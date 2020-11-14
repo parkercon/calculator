@@ -182,4 +182,27 @@ button:active{
     border-radius: 50%;
   }
 
+  a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+  #gh-logo{
+    width: 20px;
+    height: 20px;
+}
+
+  footer{
+    background-color: gray;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-size:25px;
+    padding-left: 15px;
+}
+
   
