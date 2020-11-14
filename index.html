@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Classy Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" async></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href= "https://fonts.googleapis.com/css?family=Amatic+SC">
+</head>
+<body>
+    <h1>The Classy Calculator</h1>
+    <div class="calculator">
+        
+        <div class="display">
+            <p id="eqLine"></p>
+            <p id="output"></p>
+        </div>
+        <div class="btns">
+            <button id=plus-minus>+/-</button>
+            <button class = "operation" id="exp">^</button>
+            <button id="backspace">back</button>
+            <button id="clear">clear</button>
+            <button class="digit" id="seven">7</button>
+            <button class="digit" id="eight">8</button>
+            <button class="digit" id="nine">9</button>
+            <button class = "operation" id="divide">/</button>
+            <button class="digit" id="four">4</button>
+            <button class="digit" id="five">5</button>
+            <button class="digit" id="six">6</button>
+            <button class = "operation" id="multiply">*</button>
+            <button class="digit" id="three">3</button>
+            <button class="digit" id="two">2</button>
+            <button class="digit" id="one">1</button>
+            <button class="operation" id="subtract">-</button>
+            <button class="digit" id="zero">0</button>
+            <button id="decimal">.</button>
+            <button class = "operation" id="mod">%</button>
+            <button class = "operation" id = "add">+</button>
+        </div>
+        <button id="enter">enter</button>
+    </div>
+
+    <div class="lightdark">
+        <p>light</p>
+        <label class="switch">
+            <input type="checkbox" onclick="switchColor()">
+            <span class="slider round"></span>
+        </label>
+        <p>dark</p>
+    </div>
+
+</body>
+</html>
