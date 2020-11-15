@@ -79,6 +79,7 @@ button:active{
     grid-template-columns: repeat(4, 1fr);
     margin-top: 5%;
     height: 60%;
+    width: 100%;
 }
 
 #enter{

@@ -120,6 +120,7 @@ function clearAll(){
     firstArg= '';
     operator='';
     secondArg='';
+    eqLine.textContent='';
 }
 
 digits.forEach(digit => {
